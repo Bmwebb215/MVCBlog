@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS techSite_db;
+CREATE DATABASE techSite_db;

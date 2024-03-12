@@ -1,0 +1,7 @@
+<h1>Edit Post</h1>
+<form action="/api/posts/{{post.id}}" method="POST" id="edit-post-form">
+    <input type="text" name="title" value="{{post.title}}" required>
+    <textarea name="content" required>{{post.content}}</textarea>
+    <input type="hidden" name="id" value="{{post.id}}">
+    <button type="submit">Update Post</button>
+</form>
